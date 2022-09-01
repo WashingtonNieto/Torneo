@@ -2,6 +2,7 @@
 using Torneo.App.Persistencia;
 
 //actualizacion
+//mdoificacion Washington Nieto 
 namespace Torneo.App.Consola
 {
     class Program
