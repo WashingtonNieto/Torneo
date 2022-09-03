@@ -77,6 +77,9 @@ namespace Torneo.App.Consola
                     case 11:
                         AddPartido();
                         break;
+                    case 12:
+                        GetAllPartidos();
+                        break;
                 }
             }while(opcion != 0);
         }
@@ -218,15 +221,15 @@ namespace Torneo.App.Consola
             }
         }
 
-        /*
+        
         private static void GetAllPartidos()
         {
             foreach(var partido in _repoPartido.GetAllPartidos())
             {
-                Console.WriteLine(partido.fechaHora + " "
-                + partido.Equipo.idEquipoLocal + " " + partido.marcadorLocal + " " + partido.Equipo.idEquipoVisitante) + " " + partido.marcadorVisitante;
+                Console.WriteLine(partido.FechaHora + " "
+                + partido.Local.Nombre + " " + partido.MarcadorLocal + " " + partido.Visitante.Nombre + " " + partido.MarcadorVisitante);
             }
         }        
-*/
+
     }
 }

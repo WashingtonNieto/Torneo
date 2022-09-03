@@ -19,6 +19,16 @@ namespace Torneo.App.Persistencia
             return partidoInsertado.Entity;
         }
 
+        public IEnumerable<Partido> GetAllPartidos()
+        {
+            var partidos = _dataContext.Partidos
+            .Include(e => e.Local)
+            .Include(e => e.Visitante)
+            .ToList();
+            return partidos;
+        }        
+
+
 
     
     }
