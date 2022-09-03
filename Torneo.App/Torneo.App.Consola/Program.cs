@@ -229,7 +229,6 @@ namespace Torneo.App.Consola
                 Console.WriteLine(partido.FechaHora + " "
                 + partido.Local.Nombre + " " + partido.MarcadorLocal + " " + partido.Visitante.Nombre + " " + partido.MarcadorVisitante);
             }
-        }        
-
+        }       
     }
 }
