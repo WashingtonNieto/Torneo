@@ -1,0 +1,29 @@
+﻿@page
+@model Torneo.App.Frontend.Pages.Municipios.IndexModel
+@{
+}
+<h1>LISTADO MUNICIPIOS</h1>
+
+<table class="table table-success table-striped">
+    <thead>
+        <tr>
+            <th scope="Id">Id</th>
+            <th scope="Nombre">Nombre</th>
+            <th scope="col">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var municipio in Model.municipios)
+        {
+            <tr>
+                <th>@municipio.Id</th>
+                <td>@municipio.Nombre</td>
+                <td>
+                    <a class="btn btn-outline-dark" asp-page="./Details" asp-route-id="@municipio.Id">
+                        Detalle
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
