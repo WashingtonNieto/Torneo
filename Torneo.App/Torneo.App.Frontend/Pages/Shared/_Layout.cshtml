@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Torneo de Futball</title>
+    <title>@ViewData["Title"] - Torneo.App.Frontend</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Torneo.App.Frontend.styles.css" asp-append-version="true" />
@@ -12,107 +12,45 @@
 
 <body>
     <header>
-
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-        <!--<nav class="navbar navbar-dark bg-dark"> -->
-
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Torneo de Futball MAX</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Torneo.App.Frontend</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Municipios
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/Municipios/Create">Crear</a></li>
-                                <li><a class="dropdown-item" href="/Municipios/Index">Mostrar</a></li>
-                                <li><a class="dropdown-item" href="#">Modificar</a></li>
-                                <li><a class="dropdown-item" href="#">Borrar</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Directores
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/DirectoresTecnicos/Create">Crear</a></li>
-                                <li><a class="dropdown-item" href="/DirectoresTecnicos/Index">Mostrar</a></li>
-                                <li><a class="dropdown-item" href="#">Modificar</a></li>
-                                <li><a class="dropdown-item" href="#">Borrar</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Equipos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/Equipos/Create">Crear</a></li>
-                                <li><a class="dropdown-item" href="/Equipos/Index">Mostrar</a></li>
-                                <li><a class="dropdown-item" href="#">Modificar</a></li>
-                                <li><a class="dropdown-item" href="#">Borrar</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Posiciones
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/Posiciones/Create">Crear</a></li>
-                                <li><a class="dropdown-item" href="/Posiciones/Index">Mostrar</a></li>
-                                <li><a class="dropdown-item" href="#">Modificar</a></li>
-                                <li><a class="dropdown-item" href="#">Borrar</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Jugadores
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/Jugadores/Create">Crear</a></li>
-                                <li><a class="dropdown-item" href="/Jugadores/Index">Mostrar</a></li>
-                                <li><a class="dropdown-item" href="#">Modificar</a></li>
-                                <li><a class="dropdown-item" href="#">Borrar</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Partidos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="/Partidos/Create">Crear</a></li>
-                                <li><a class="dropdown-item" href="/Partidos/Index">Mostrar</a></li>
-                                <li><a class="dropdown-item" href="#">Modificar</a></li>
-                                <li><a class="dropdown-item" href="#">Borrar</a></li>
-                            </ul>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Municipios/Index">Municipios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/DirectoresTecnicos/Index">Directores
+                                Tecnicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Equipos/Index">Equipos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Jugadores/Index">Jugadores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Posiciones/Index">Posiciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Partidos/Index">Partidos</a>
+                        </li>
+
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                 </div>
             </div>
         </nav>
-
     </header>
     <div class="container">
         <main role="main" class="pb-3">

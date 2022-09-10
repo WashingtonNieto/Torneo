@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Wnieto\\.nuget\\packages\\": {}
+    "C:\\Users\\washi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.app\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
       "projectName": "Torneo.App.Dominio",
-      "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.app\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Wnieto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.app\\Torneo.App.Dominio\\obj\\",
+      "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Wnieto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
