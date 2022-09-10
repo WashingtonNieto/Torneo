@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Index.cshtml]
@@ -61,6 +69,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaWNpb25lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Index.cshtml]
