@@ -156,8 +156,9 @@ namespace Torneo.App.Consola
             var jugador = new Jugador 
             { 
                 Nombre = nombre, 
+                Numero = numero, 
             };
-            _repoJugador.AddJugador(jugador, numero, idEquipo, idPosicion);
+            _repoJugador.AddJugador(jugador, idEquipo, idPosicion);
         }
 
         private static void AddPartido()
@@ -216,7 +217,7 @@ namespace Torneo.App.Consola
         {
             foreach(var jugador in _repoJugador.GetAllJugadores())
             {
-                Console.WriteLine(jugador.Nombre + " "
+                Console.WriteLine(jugador.Nombre + " " +jugador.Numero + " "
                 + jugador.Equipo.Nombre + " " + jugador.Posicion.Nombre);
             }
         }
