@@ -10,7 +10,6 @@ namespace Torneo.App.Frontend.Pages.Equipos
 
         private readonly IRepositorioEquipo _repoEquipo;
         public Equipo equipo { get; set; }
-
         public DetailsModel(IRepositorioEquipo repoEquipo)
         {
             _repoEquipo = repoEquipo;
