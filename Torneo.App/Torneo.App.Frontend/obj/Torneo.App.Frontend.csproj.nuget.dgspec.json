@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {}
+    "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+    "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
         "projectName": "Torneo.App.Dominio",
-        "projectPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {
+    "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
         "projectName": "Torneo.App.Frontend",
-        "projectPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -79,11 +79,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
+              "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
               },
-              "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj"
+              "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj"
               }
             }
           }
@@ -120,17 +120,17 @@
         }
       }
     },
-    "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
+    "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
         "projectName": "Torneo.App.Persistencia",
-        "projectPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Henry\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -142,8 +142,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
+              "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Henry\\Documents\\Misión TIC 2022\\Programación - Ciclo 3\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
               }
             }
           }

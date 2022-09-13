@@ -22,3 +22,15 @@ C:\Users\washi\Documents\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\T
 C:\Users\washi\Documents\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
 C:\Users\washi\Documents\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
 C:\Users\washi\Documents\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.deps.json
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.dll
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\bin\Debug\net6.0\Torneo.App.Dominio.pdb
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.AssemblyReference.cache
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.AssemblyInfo.cs
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.dll
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\refint\Torneo.App.Dominio.dll
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\Torneo.App.Dominio.pdb
+C:\Users\Henry\Documents\Misión TIC 2022\Programación - Ciclo 3\Torneo\Torneo.App\Torneo.App.Dominio\obj\Debug\net6.0\ref\Torneo.App.Dominio.dll
