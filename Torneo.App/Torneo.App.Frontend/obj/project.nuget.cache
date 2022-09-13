@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8TuO8o2fJTEDx1y5GG/Rap4BjK/NHvViT7rq2Ktji0aAQsLbMygQpBa6cwrWMP5PSWCCKFE1UVNJSnhDs/hjOA==",
+  "dgSpecHash": "kUEpMK3rKgRFwVYf5050mbiKxd7aEUtYVHpHDMio/qRa0+kc/9agGrIz90+iyFr4XJ/vVYr5PJV2lu0RgBJLWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\Wnieto\\Documents\\GitHub\\Torneo\\Torneo.App\\torneo.App.Frontend\\Torneo.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wnieto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Wnieto\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
