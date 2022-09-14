@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/washi/Documents/torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
