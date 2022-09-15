@@ -34,7 +34,23 @@ namespace Torneo.App.Frontend.Pages.Equipos
 
     public IActionResult OnPost(Equipo equipo, int idMunicipio, int idDT)
     {
-      _repoEquipo.AddEquipo(equipo, idMunicipio, idDT);
+      if (ModelState.IsValid)
+      {
+        _repoEquipo.AddEquipo(equipo, idMunicipio, idDT);
+        return RedirectToPage("Index");
+      }
+      else
+      {
+        equipo = new Equipo();
+        municipios = _repoMunicipio.GetAllMunicipios();
+        dts = _repoDT.GetAllDTs();
+        return Page();
+      }
+    }
+
+    public IActionResult OnPost(Equipo equipo, int idMunicipio, int idDT)
+    {
+      _repoEquipo.UpdateEquipo(equipo, idMunicipio, idDT);
       return RedirectToPage("Index");
     }
 

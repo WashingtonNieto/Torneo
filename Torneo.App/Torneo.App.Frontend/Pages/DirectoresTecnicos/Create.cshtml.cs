@@ -5,25 +5,33 @@ using Torneo.App.Persistencia;
 
 namespace Torneo.App.Frontend.Pages.DirectoresTecnicos
 {
-    public class CreateModel : PageModel
+  public class CreateModel : PageModel
+  {
+    private readonly IRepositorioDT _repoDT;
+    public DirectorTecnico dt { get; set; }
+
+    public CreateModel(IRepositorioDT repoDT)
     {
-        private readonly IRepositorioDT _repoDT;
-        public DirectorTecnico dt { get; set; }
-
-        public CreateModel(IRepositorioDT repoDT)
-        {
-            _repoDT = repoDT;
-        }
-
-        public void OnGet()
-        {
-            dt = new DirectorTecnico();
-        }
-
-        public IActionResult OnPost(DirectorTecnico dt)
-        {
-            _repoDT.AddDT(dt);
-            return RedirectToPage("Index");
-        }
+      _repoDT = repoDT;
     }
+
+    public void OnGet()
+    {
+      dt = new DirectorTecnico();
+    }
+
+    public IActionResult OnPost(DirectorTecnico dt)
+    {
+      if (ModelState.IsValid)
+      {
+        _repoDT.AddDT(dt);
+        return RedirectToPage("Index");
+      }
+      else
+      {
+        return Page();
+      }
+
+    }
+  }
 }
