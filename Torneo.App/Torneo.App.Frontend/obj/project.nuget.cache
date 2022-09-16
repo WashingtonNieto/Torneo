@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jJx0aX1RjPxKObirUu2/0VNIYDDuvNEabh1CDUxvnIFvJVqtzQrqmwxZxxWEB6jkZv1D+P3QdeHMjWxUOkq8DA==",
+  "dgSpecHash": "0DAfcPotYJ+YJOkjDK7V/3i6XivlJucPXYFjXp+C/bXUp59NagX0M/p+/wZsj8hUrzJSITzv6iOzJ51AZgqqOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\washi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\washi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -45,12 +45,5 @@
     "C:\\Users\\washi\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\washi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Frontend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

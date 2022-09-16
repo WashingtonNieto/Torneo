@@ -1,3 +1,4 @@
+using Microsoft.ModelValidate.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Torneo.App.Dominio;
@@ -32,8 +33,19 @@ namespace Torneo.App.Frontend.Pages.Jugadores
 
     public IActionResult OnPost(Jugador jugador, int idEquipo, int idPosicion)
     {
-      _repoJugador.AddJugador(jugador, idEquipo,idPosicion);
-      return RedirectToPage("Index");
+
+      if (ModelState.IsValid)
+      {
+        _repoJugador.AddJugador(jugador, idEquipo, idPosicion);
+        return RedirectToPage("Index");
+      }
+      else
+      {
+        equipos = _repoEquipo.GetAllEquipos();
+        posiciones = _repoPosicion.GetAllPosiciones();
+        return Page();
+      }
+
     }
 
   }

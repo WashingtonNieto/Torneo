@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GNN1hHit8+TLA0x5HQ63x3PVIE6OdOMyP4A5treYjDO58cRAnGEKz7T2tghJ4RWj+zRnJXz9JsabUS9IT2w9gw==",
+  "dgSpecHash": "/1ij4SJFPW+NP5LrRs8D7RddGDcHJFBUjNrMqWiqyz8TwtsYkTJ0nscKwHi2vVzgkMUby1TmKmlKIHaNuSbN7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\washi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\washi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -48,12 +48,5 @@
     "C:\\Users\\washi\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\washi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\washi\\Documents\\torneo\\Torneo.App\\Torneo.App.Persistencia\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

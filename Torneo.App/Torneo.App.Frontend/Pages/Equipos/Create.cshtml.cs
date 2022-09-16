@@ -48,11 +48,5 @@ namespace Torneo.App.Frontend.Pages.Equipos
       }
     }
 
-    public IActionResult OnPost(Equipo equipo, int idMunicipio, int idDT)
-    {
-      _repoEquipo.UpdateEquipo(equipo, idMunicipio, idDT);
-      return RedirectToPage("Index");
-    }
-
   }
 }
