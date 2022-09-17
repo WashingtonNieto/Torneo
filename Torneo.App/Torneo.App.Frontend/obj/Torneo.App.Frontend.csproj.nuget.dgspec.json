@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {}
+    "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+    "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
         "projectName": "Torneo.App.Dominio",
-        "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Wnieto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wnieto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,21 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {
+    "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
         "projectName": "Torneo.App.Frontend",
-        "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Wnieto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\obj\\",
+        "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\Torneo.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wnieto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -79,11 +79,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
+              "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
               },
-              "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj"
+              "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj"
               }
             }
           }
@@ -116,21 +116,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
+    "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
         "projectName": "Torneo.App.Persistencia",
-        "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Wnieto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\Torneo.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\washi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wnieto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\washi\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -142,8 +142,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Wnieto\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
+              "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\washi\\Documents\\Torneo\\Torneo.App\\Torneo.App.Dominio\\Torneo.App.Dominio.csproj"
               }
             }
           }
@@ -195,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
