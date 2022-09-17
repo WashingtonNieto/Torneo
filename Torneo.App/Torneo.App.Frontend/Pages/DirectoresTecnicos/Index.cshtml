@@ -12,7 +12,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var dt in Model.dts)
+        @foreach (var dt in Model.dt)
         {
             <tr>
                 <th>@dt.Id</th>
@@ -20,6 +20,9 @@
                 <td>
                     <a class="btn btn-primary" asp-page="./Details" asp-route-id="@dt.Id">
                         Detalle
+                    </a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@dt.Id">
+                        Editar
                     </a>
                 </td>
             </tr>
