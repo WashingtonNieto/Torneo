@@ -16,6 +16,14 @@
             <tr>
                 <th>@posicion.Id</th>
                 <td>@posicion.Nombre</td>
+                <td>
+                    <a class="btn btn-primary" asp-page="./Details" asp-route-id="@posicion.Id">
+                        Detalle
+                    </a>
+                    <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@posicion.Id">
+                        Editar
+                    </a>
+                </td>                
             </tr>
         }
     </tbody>
