@@ -26,8 +26,7 @@ namespace Torneo.App.Frontend.Pages.Partidos
       equipos = _repoEquipo.GetAllEquipos();
     }
 
-//    public IActionResult OnPost(Partido partido, DateTime FechaHora, int idEquipoLocal, int marcadorLocal, int idEquipoVisitante, int marcadorVisitante)
-    public IActionResult OnPost(Partido partido, int idEquipoLocal, int marcadorLocal, int idEquipoVisitante, int marcadorVisitante)
+    public IActionResult OnPost(Partido partido, int FechaHora, int idEquipoLocal, int marcadorLocal, int idEquipoVisitante, int marcadorVisitante)
     {
 
 /*
@@ -41,15 +40,7 @@ namespace Torneo.App.Frontend.Pages.Partidos
         equipos = _repoEquipo.GetAllEquipos();
         return Page();
       }
-*/
-
-      if (partido is null)
-      {
-        _repoPartido.AddPartido(partido, idEquipoLocal, marcadorLocal, idEquipoVisitante, marcadorVisitante);
-        return RedirectToPage("Index");
-      }
-
-
+      */
     }
   }
 }
