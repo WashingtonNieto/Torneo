@@ -16,8 +16,10 @@ namespace Torneo.App.Frontend.Pages.Equipos
     public IEnumerable<Municipio> municipios { get; set; }
     public IEnumerable<DirectorTecnico> dts { get; set; }
 
-    public CreateModel(IRepositorioEquipo repoEquipo, IRepositorioMunicipio
-    repoMunicipio, IRepositorioDT repoDT)
+    public CreateModel(
+      IRepositorioEquipo repoEquipo, 
+      IRepositorioMunicipio repoMunicipio, 
+      IRepositorioDT repoDT)
     {
       _repoEquipo = repoEquipo;
       _repoMunicipio = repoMunicipio;
@@ -34,20 +36,20 @@ namespace Torneo.App.Frontend.Pages.Equipos
 
     public IActionResult OnPost(Equipo equipo, int idMunicipio, int idDT)
     {
-      //if (!ModelState.IsValid)
-      //{
-
-     //   equipo = new Equipo();
-     //   municipios = _repoMunicipio.GetAllMunicipios();
-     //   dts = _repoDT.GetAllDTs();
-     //   return Page();
-
-     // }
-     // else
-     // {
+      /*
+      if (!ModelState.IsValid)
+      {
+        equipo = new Equipo();
+        municipios = _repoMunicipio.GetAllMunicipios();
+        dts = _repoDT.GetAllDTs();
+        return Page();
+      }
+      else
+      {
+        */
         _repoEquipo.AddEquipo(equipo, idMunicipio, idDT);
         return RedirectToPage("Index");
-     // }
+      //}
     }
 
   }
