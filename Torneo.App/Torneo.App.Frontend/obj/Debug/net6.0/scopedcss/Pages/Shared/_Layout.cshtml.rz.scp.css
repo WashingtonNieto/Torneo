@@ -7,6 +7,12 @@ a.navbar-brand[b-gankhwiqtj] {
   word-break: break-all;
 }
 
+body[b-gankhwiqtj] {
+  height:500px;
+  background-color: aqua;
+  background-image: url("..\Torneo.App\Torneo.App.Images\Estadio.png");
+}
+
 a[b-gankhwiqtj] {
   color: #0077cc;
 }
