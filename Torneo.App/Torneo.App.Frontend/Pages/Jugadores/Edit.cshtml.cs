@@ -6,44 +6,51 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Torneo.App.Frontend.Pages.Jugadores
 {
-    public class EditModel : PageModel
+  public class EditModel : PageModel
+  {
+    private readonly IRepositorioJugador _repoJugador;
+    private readonly IRepositorioEquipo _repoEquipo;
+    private readonly IRepositorioPosicion _repoPosicion;
+
+    public Jugador jugador { get; set; }
+    public SelectList EquipoOptions { get; set; }
+    public SelectList PosicionOptions { get; set; }
+    public int EquipoSelected { get; set; }
+    public int PosicionSelected { get; set; }
+
+    public EditModel(
+        IRepositorioJugador repoJugador,
+        IRepositorioEquipo repoEquipo,
+        IRepositorioPosicion repoPosicion
+    )
     {
-        private readonly IRepositorioJugador _repoJugador;
-        private readonly IRepositorioEquipo _repoEquipo;
-        private readonly IRepositorioPosicion _repoPosicionT;
-
-        public Jugador jugador { get; set; }
-        public SelectList EquipoOptions { get; set; }
-        public SelectList PosicionOptions { get; set; }
-
-        public EditModel(
-            IRepositorioJugador repoJugador,
-            IRepositorioEquipo repoEquipo,
-            IRepositorioPosicion repoPosicionT
-        )
-        {
-            _repoJugador = repoJugador;
-            _repoEquipo = repoEquipo;
-            _repoPosicionT = repoPosicionT;
-        }
-
-/*        public IActionResult OnGet(int id)
-        {
-            jugador = _repoJugador.GetJugador(id);
-            EquipoOptions = new SelectList(_repoEquipo.GetAllEquipos(), "Id", "Nombre");
-            EquipoSelected = jugador.Equipo.Id;
-            PosicionOptions = new SelectList(_repoDT.GetAllDTs(), "Id", "Nombre");
-            PosicionSelected = equipo.Municipio.Id;
-            DTSelected = equipo.DirectorTecnico.Id;
-            if (equipo == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                return Page();
-            }
-        }
-        */
+      _repoJugador = repoJugador;
+      _repoEquipo = repoEquipo;
+      _repoPosicion = repoPosicion;
     }
+
+    public IActionResult OnGet(int id)
+    {
+      jugador = _repoJugador.GetJugador(id);
+      EquipoOptions = new SelectList(_repoEquipo.GetAllEquipos(), "Id", "Nombre");
+      EquipoSelected = jugador.Equipo.Id;
+      PosicionOptions = new SelectList(_repoPosicion.GetAllPosiciones(), "Id", "Nombre");
+      PosicionSelected = jugador.Posicion.Id;
+      if (jugador == null)
+      {
+        return NotFound();
+      }
+      else
+      {
+        return Page();
+      }
+    }
+
+    public IActionResult OnPost(Jugador jugador, int numero, int idEquipo, int idPosicion)
+    {
+      _repoJugador.UpdateJugador(jugador, numero, idEquipo, idPosicion);
+      return RedirectToPage("Index");
+    }
+
+  }
 }

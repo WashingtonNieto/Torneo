@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Torneo.App.Dominio;
-
 namespace Torneo.App.Persistencia
 {
     public class RepositorioJugador : IRepositorioJugador
@@ -37,12 +36,13 @@ namespace Torneo.App.Persistencia
             return jugadorEncontrado;
         }
 
-        public Jugador UpdateJugador(Jugador jugador, int idEquipo, int idPosicion)
+        public Jugador UpdateJugador(Jugador jugador, int numero, int idEquipo, int idPosicion)
         {
             var jugadorEncontrado = GetJugador(jugador.Id);
             var equipoEncontrado = _dataContext.Equipos.Find(idEquipo);
             var posicionEncontrado = _dataContext.Posiciones.Find(idPosicion);
             jugadorEncontrado.Nombre = jugador.Nombre;
+            jugadorEncontrado.Numero = jugador.Numero;
             jugadorEncontrado.Equipo = equipoEncontrado;
             jugadorEncontrado.Posicion = posicionEncontrado;
             _dataContext.SaveChanges();
