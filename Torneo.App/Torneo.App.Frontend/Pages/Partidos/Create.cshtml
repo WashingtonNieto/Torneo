@@ -12,7 +12,7 @@
 
     <div class="form-group">
         <label for="idEquipo">Equipo LOCAL</label>
-        <select id="idEquipo" name="idEquipo" class="form-control">
+        <select id="idEquipo" name="idEquipoLocal" class="form-control">
             @foreach (var equipo in Model.equipos)
             {
                 <option value="@equipo.Id">@equipo.Nombre</option>
@@ -28,7 +28,7 @@
 
     <div class="form-group">
         <label for="idEquipo">Equipo VISITANTE</label>
-        <select id="idEquipo" name="idEquipo" class="form-control">
+        <select id="idEquipo" name="idEquipoVisitante" class="form-control">
             @foreach (var equipo in Model.equipos)
             {
                 <option value="@equipo.Id">@equipo.Nombre</option>
