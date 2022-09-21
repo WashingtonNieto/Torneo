@@ -65,6 +65,10 @@ html {
   font-size: 14px;
 }
 
+
+
+
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -82,8 +86,19 @@ body {
   height:500px;
   background-image: url("images/Estadio.PNG");
   background-repeat:no-repeat;
-  background-position-x:center;
-  background-position-y:center;
-  background-size: 70rem;
-  margin-bottom: 60px;
+  background-size: cover ;
+  background-attachment: fixed;
+  background-position:center;
 }
+ 
+.formulario{
+  max-width: 25em;
+  padding: 1.3em;
+  margin: 0 auto;
+  background-color: rgbas(120,119,123,0.3);
+  font-weight:0.5em;
+  border-radius: 0.5em;
+  box-shadow: inset 1px 1px 22px 4px
+
+}
+

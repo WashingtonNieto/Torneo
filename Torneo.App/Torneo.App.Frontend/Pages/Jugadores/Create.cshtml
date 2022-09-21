@@ -2,37 +2,43 @@
 @model Torneo.App.Frontend.Pages.Jugadores.CreateModel
 @{
 }
-<h1>Nuevo Jugador</h1>
-<form method="post">
-  <div class="form-group">
-    <label asp-for="jugador.Nombre"></label>
-    <input asp-for="jugador.Nombre" class="form-control" required>
-    <!--<span class="text-danger" asp-validation-for="jugador.Nombre"></span> -->
-  </div>
-  <div class="form-group">
-    <label asp-for="jugador.Numero"></label>
-    <input asp-for="jugador.Numero" class="form-control">
-    <span class="text-danger" asp-validation-for="jugador.Numero"></span>
-  </div>
-  <div class="form-group">
-    <label for="idEquipo">Equipo</label>
-    <select id="idEquipo" name="idEquipo" class="form-control">
-      @foreach (var equipo in Model.equipos)
-      {
-        <option value="@equipo.Id">@equipo.Nombre</option>
-      }
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="idPosicion">Posicion</label>
-    <select id="idPosicion" name="idPosicion" class="form-control">
-      @foreach (var posicion in Model.posiciones)
-      {
-        <option value="@posicion.Id">@posicion.Nombre</option>
-      }
-    </select>
-  </div>
+<section class="container">
+  <div class="row my-5">
+    <div class="col-sm-12 col-md-12 cpñ-lg-12">
+      <form method="POST" class="formulario">
+        <h3 class="display-5 text-primary text-center">Nuevo Jugador</h3>
+        <div class="form-group">
+          <label asp-for="jugador.Nombre"></label>
+          <input asp-for="jugador.Nombre" class="form-control" placeholder="Nombre del jugador" required>
+          <!--<span class="text-danger" asp-validation-for="jugador.Nombre"></span> -->
+        </div>
+        <div class="form-group">
+          <label asp-for="jugador.Numero"></label>
+          <input asp-for="jugador.Numero" class="form-control" placeholder="Numero del jugador" required>
+          <span class="text-danger" asp-validation-for="jugador.Numero"></span>
+        </div>
+        <div class="form-group">
+          <label for="idEquipo">Equipo</label>
+          <select id="idEquipo" name="idEquipo" class="form-control">
+            @foreach (var equipo in Model.equipos)
+            {
+              <option value="@equipo.Id">@equipo.Nombre</option>
+            }
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="idPosicion">Posicion</label>
+          <select id="idPosicion" name="idPosicion" class="form-control">
+            @foreach (var posicion in Model.posiciones)
+            {
+              <option value="@posicion.Id">@posicion.Nombre</option>
+            }
+          </select>
+        </div>
 
-  <button type="submit" class="btn btn-primary btn-block">Crear Jugador</button>
-</form>
-<a class="btn btn-secondary" asp-page="./Index">Volver</a>
+        <button type="submit" class="btn btn-primary btn-block">Crear Jugador</button>
+        <a class="btn btn-secondary" asp-page="./Index">Volver</a>
+      </form>
+    </div>
+  </div>
+</section>
