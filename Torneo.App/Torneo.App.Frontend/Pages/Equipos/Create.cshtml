@@ -2,34 +2,41 @@
 @model Torneo.App.Frontend.Pages.Equipos.CreateModel
 @{
 }
-<h1>Nuevo Equipo</h1>
-<form method="post">
-  <div class="form-group">
-    <label asp-for="equipo.Nombre"></label>
-    <input asp-for="equipo.Nombre" class="form-control"  required>
-<!--    <span class="text-danger" asp-validation-for="equipo.Nombre"></span> -->
-  </div>
+<section class="container">
+  <div class="row my-5">
+    <div class="col-sm-12 col-md-12 cpñ-lg-12">
+      <form method="POST" class="formulario">
+        <h3 class="display-5 text-primary text-center">Nuevo Equipo</h3>
+        <div class="form-group">
+          <label asp-for="equipo.Nombre"></label>
+          <input asp-for="equipo.Nombre" class="form-control" placeholder="Nombre del equipo"
+          maxlength="20" required>
+          <!--    <span class="text-danger" asp-validation-for="equipo.Nombre"></span> -->
+        </div>
 
-  <div class="form-group">
-    <label for="idMunicipio">Municipio</label>
-    <select id="idMunicipio" name="idMunicipio" class="form-control">
-      @foreach (var municipio in Model.municipios)
-      {
-        <option value="@municipio.Id">@municipio.Nombre</option>
-      }
-    </select>
-  </div>
+        <div class="form-group">
+          <label for="idMunicipio">Municipio</label>
+          <select id="idMunicipio" name="idMunicipio" class="form-control">
+            @foreach (var municipio in Model.municipios)
+            {
+              <option value="@municipio.Id">@municipio.Nombre</option>
+            }
+          </select>
+        </div>
 
-  <div class="form-group">
-    <label for="idDT">D.T.</label>
-    <select id="idDT" name="idDT" class="form-control">
-      @foreach (var dt in Model.dts)
-      {
-        <option value="@dt.Id">@dt.Nombre</option>
-      }
-    </select>
-  </div>
+        <div class="form-group">
+          <label for="idDT">D.T.</label>
+          <select id="idDT" name="idDT" class="form-control">
+            @foreach (var dt in Model.dts)
+            {
+              <option value="@dt.Id">@dt.Nombre</option>
+            }
+          </select>
+        </div>
 
-  <button type="submit" class="btn btn-primary btn-block">Crear equipo</button>
-</form>
-<a class="btn btn-secondary" asp-page="./Index">Volver</a>
+        <button type="submit" class="btn btn-primary btn-block">Crear equipo</button>
+        <a class="btn btn-secondary" asp-page="./Index">Volver</a>
+      </form>
+    </div>
+  </div>
+</section>

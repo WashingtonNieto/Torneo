@@ -6,8 +6,8 @@ namespace Torneo.App.Persistencia
   {
     private readonly DataContext _dataContext = new DataContext();
     public Equipo AddEquipo(
-      Equipo equipo, 
-      int idMunicipio, 
+      Equipo equipo,
+      int idMunicipio,
       int idDT)
     {
       var municipioEncontrado = _dataContext.Municipios.Find(idMunicipio);
@@ -48,6 +48,18 @@ namespace Torneo.App.Persistencia
       equipoEncontrado.DirectorTecnico = DTEncontrado;
       _dataContext.SaveChanges();
       return equipoEncontrado;
+    }
+
+
+    public IEnumerable<Equipo> GetEquiposMunicipio(int idMunicipio)
+    {
+      var municipioEncontrado = _dataContext.Municipios.Find(idMunicipio);
+      var equipos = _dataContext.Equipos
+      .Where(e => e.Municipio == municipioEncontrado)
+      .Include(e => e.Municipio)
+      .Include(e => e.DirectorTecnico)
+      .ToList();
+      return equipos;
     }
 
   }
