@@ -34,16 +34,27 @@
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@municipio.Id">
                         Editar
                     </a>
-
-                    <form method="post" class="d-inline">
-                        <button asp-page-handler="Delete" asp-route-id="@municipio.Id"
+                    @if (municipio.Equipos.Count == 0)
+                    {
+                        <form method="post" class="d-inline">
+                            <button asp-page-handler="Delete" asp-route-id="@municipio.Id"
                         onclick="return confirm('Esta Seguro de eliminar el municipio?')" class="btn btn-danger">
-                            Delete
+                                Delete
 
-                        </button>
-                    </form>
+                            </button>
+                        </form>
 
+                    }
                 </td>
+                @* 
+                //ejemplo para ver el listado de equipos que tiene un municipio
+                <td>
+                    @foreach (var equipo in @municipio.Equipos)
+                    {
+                        @equipo.Nombre;
+                    }
+                </td> *@
+
             </tr>
         }
     </tbody>

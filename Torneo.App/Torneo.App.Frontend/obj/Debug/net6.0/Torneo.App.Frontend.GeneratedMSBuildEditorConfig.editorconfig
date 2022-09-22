@@ -8,161 +8,161 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Torneo.App.Frontend
 build_property.RootNamespace = Torneo.App.Frontend
-build_property.ProjectDir = C:\Users\Wnieto\Documents\GitHub\Torneo\Torneo.App\Torneo.App.Frontend\
+build_property.ProjectDir = C:\Users\washi\Documents\Torneo\Torneo.App\Torneo.App.Frontend\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Wnieto\Documents\GitHub\Torneo\Torneo.App\Torneo.App.Frontend
+build_property.MSBuildProjectDirectory = C:\Users\washi\Documents\Torneo\Torneo.App\Torneo.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Create.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Details.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Edit.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DirectoresTecnicos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlyZWN0b3Jlc1RlY25pY29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Create.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Details.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Edit.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Error.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Create.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Details.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Edit.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Create.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGlvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Details.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGlvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Edit.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGlvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGlvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Create.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Details.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Edit.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Create.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaWNpb25lc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Edit.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaWNpb25lc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Index.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaWNpb25lc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Privacy.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Shared/_LoginPartial.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/_ViewImports.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/_ViewStart.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Wnieto/Documents/GitHub/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Shared/_Layout.cshtml]
+[C:/Users/washi/Documents/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gankhwiqtj

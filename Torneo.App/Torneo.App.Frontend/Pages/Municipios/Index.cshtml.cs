@@ -20,8 +20,18 @@ namespace Torneo.App.Frontend.Pages.Municipios
     {
       municipios = _repoMunicipio.GetAllMunicipios();
       ErrorEliminar = false;
-    }
 
+
+      //super codigo para mostrar en consola un resultado!!!
+      // foreach (var municipio in municipios)
+      // {
+      //   Console.WriteLine(municipio.Nombre);
+      //   foreach (var equipo in municipio.Equipos)
+      //   {
+      //     Console.WriteLine("\t" + equipo.Nombre);
+      //   }
+      // }
+    }
     public IActionResult OnPostDelete(int id)
     {
       try

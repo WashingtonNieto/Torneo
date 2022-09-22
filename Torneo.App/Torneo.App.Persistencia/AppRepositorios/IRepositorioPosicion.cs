@@ -8,5 +8,5 @@ namespace Torneo.App.Persistencia
         public IEnumerable<Posicion> GetAllPosiciones();
         public Posicion GetPosicion(int idPosicion);
         public Posicion UpdatePosicion(Posicion posicion);
-    }
+        public Posicion DeletePosicion(int idPosicion);    }
 }

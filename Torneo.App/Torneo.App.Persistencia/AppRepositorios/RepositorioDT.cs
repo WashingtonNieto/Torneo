@@ -36,5 +36,16 @@ namespace Torneo.App.Persistencia
       return dtEncontrado;
     }
 
+    public DirectorTecnico DeleteDirectorTecnico(int idDT)
+    {
+      var dtEncontrado = _dataContext.DirectorTecnico.Find(idDT);
+      if (dtEncontrado != null)
+      {
+        _dataContext.DirectoresTecnicos.Remove(dtEncontrado);
+        _dataContext.SaveChanges();
+      }
+      return dtEncontrado;
+    }
+
   }
 }
