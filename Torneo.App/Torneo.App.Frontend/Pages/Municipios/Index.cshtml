@@ -2,6 +2,15 @@
 @model Torneo.App.Frontend.Pages.Municipios.IndexModel
 @{
 }
+
+@if (Model.ErrorEliminar)
+{
+    <div class="alert alert-danger" role="alert">
+        No se pudo eliminar el Municipio
+    </div>
+}
+
+
 <h1>LISTADO MUNICIPIOS</h1>
 
 <table class="table table-success table-striped">
@@ -25,6 +34,15 @@
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@municipio.Id">
                         Editar
                     </a>
+
+                    <form method="post" class="d-inline">
+                        <button asp-page-handler="Delete" asp-route-id="@municipio.Id"
+                        onclick="return confirm('Esta Seguro de eliminar el municipio?')" class="btn btn-danger">
+                            Delete
+
+                        </button>
+                    </form>
+
                 </td>
             </tr>
         }
