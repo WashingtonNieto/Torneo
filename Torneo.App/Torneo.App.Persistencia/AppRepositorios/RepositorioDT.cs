@@ -14,7 +14,11 @@ namespace Torneo.App.Persistencia
 
     public IEnumerable<DirectorTecnico> GetAllDTs()
     {
-      return _dataContext.DirectoresTecnicos;
+      var dt = _dataContext.DirectoresTecnicos
+      .Include(m => m.Equipos)
+      .ToList();
+
+      return dt;
     }
 
     public DirectorTecnico GetDT(int idDT)
@@ -38,7 +42,7 @@ namespace Torneo.App.Persistencia
 
     public DirectorTecnico DeleteDirectorTecnico(int idDT)
     {
-      var dtEncontrado = _dataContext.DirectorTecnico.Find(idDT);
+      var dtEncontrado = _dataContext.DirectoresTecnicos.Find(idDT);
       if (dtEncontrado != null)
       {
         _dataContext.DirectoresTecnicos.Remove(dtEncontrado);
