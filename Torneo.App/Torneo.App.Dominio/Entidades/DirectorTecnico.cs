@@ -14,5 +14,6 @@ namespace Torneo.App.Dominio
     [Display(Name = "Telefono del Director Tecnico")]
     [Required(ErrorMessage = "El telefono es obligatorio")]
     public string Telefono { get; set; }
+    public List<Equipo> Equipos { get; set; }
   }
 }

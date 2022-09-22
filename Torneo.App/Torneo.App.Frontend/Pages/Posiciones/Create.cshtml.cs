@@ -21,15 +21,15 @@ namespace Torneo.App.Frontend.Pages.Posiciones
 
     public IActionResult OnPost(Posicion posicion)
     {
-      if (ModelState.IsValid)
-      {
+      //if (ModelState.IsValid)
+      //{
         _repoPosicion.AddPosicion(posicion);
         return RedirectToPage("Index");
-      }
-      else
-      {
-        return Page();
-      }
+   //   }
+   //   else
+   //   {
+   //     return Page();
+   //   }
     }
   }
 }

@@ -8,6 +8,7 @@
         <tr>
             <th scope="Id">Id</th>
             <th scope="Nombre">Nombre</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     <tbody>
@@ -23,7 +24,17 @@
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@posicion.Id">
                         Editar
                     </a>
-                </td>                
+                    @if (posicion.Jugadores.Count == 0)
+                    {
+                        <form method="post" class="d-inline">
+                            <button asp-page-handler="Delete" asp-route-id="@posicion.Id"
+                        onclick="return confirm('Esta Seguro de eliminar la posicion?')" class="btn btn-danger">
+                                Delete
+
+                            </button>
+                        </form>
+                    }
+                </td>
             </tr>
         }
     </tbody>
