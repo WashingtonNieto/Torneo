@@ -29,6 +29,17 @@
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@equipo.Id">
                         Editar
                     </a>
+                    @if (equipo.Municipios.Count == 0)
+                    {
+
+                        <form method="post" class="d-inline">
+                            <button asp-page-handler="Delete" asp-route-id="@equipo.Id"
+                            onclick="return confirm('Esta Seguro de eliminar el equipo?')" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </form>
+                    }
+
                 </td>
             </tr>
         }
