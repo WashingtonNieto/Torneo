@@ -14,6 +14,11 @@ namespace Torneo.App.Dominio
     [Display(Name = "Nombre del Director Tecnico")]
     [Required(ErrorMessage = "El nombre del D.T. es obligatorio")]
     public DirectorTecnico DirectorTecnico { get; set; }
-   
+
+    //public Jugador Jugador { get; set; }
+    //public List<Partido> Partidos { get; set; }
+    public List<Jugador> Jugadores { get; set; }
+    //public List<DirectorTecnico> DirectoresTecnicos { get; set; }
+
   }
 }

@@ -24,6 +24,7 @@ namespace Torneo.App.Persistencia
       var equipos = _dataContext.Equipos
       .Include(e => e.Municipio)
       .Include(e => e.DirectorTecnico)
+//      .Include(e => e.Jugador)
       .ToList();
       return equipos;
     }
