@@ -28,6 +28,7 @@ namespace Torneo.App.Persistencia
       return equipos;
     }
 
+
     public Equipo GetEquipo(int idEquipo)
     {
       var equipoEncontrado = _dataContext.Equipos
@@ -60,6 +61,18 @@ namespace Torneo.App.Persistencia
       .Include(e => e.DirectorTecnico)
       .ToList();
       return equipos;
+    }
+
+
+    public Equipo DeleteEquipo(int idEquipo)
+    {
+      var equipoEncontrado = _dataContext.Equipos.Find(idEquipo);
+      if (equipoEncontrado != null)
+      {
+        _dataContext.Equipos.Remove(equipoEncontrado);
+        _dataContext.SaveChanges();
+      }
+      return equipoEncontrado;
     }
 
   }

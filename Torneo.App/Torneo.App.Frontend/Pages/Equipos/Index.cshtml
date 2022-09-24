@@ -2,7 +2,12 @@
 @model Torneo.App.Frontend.Pages.Equipos.IndexModel
 @{
 }
-
+@if (Model.ErrorEliminar)
+{
+    <div class="alert alert-danger" role="alert">
+    No se pudo eliminar el Equipo
+    </div>
+}
 <h1>LISTADO DE EQUIPOS</h1>
 <table class="table table-success table-striped">
     <thead>
@@ -29,6 +34,13 @@
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@equipo.Id">
                         Editar
                     </a>
+                        <form method="post" class="d-inline">
+                            <button asp-page-handler="Delete" asp-route-id="@equipo.Id"
+                            onclick="return confirm('Esta Seguro de eliminar el equipo?')"
+                            class="btn btn-danger">
+                                Delete
+                            </button>       
+                        </form>
                 </td>
             </tr>
         }
