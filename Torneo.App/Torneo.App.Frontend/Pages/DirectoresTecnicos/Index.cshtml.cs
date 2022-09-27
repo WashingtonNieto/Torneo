@@ -41,6 +41,9 @@ namespace Torneo.App.Frontend.Pages.DirectoresTecnicos
 
       }
     }
+
+
+
   }
 
 }

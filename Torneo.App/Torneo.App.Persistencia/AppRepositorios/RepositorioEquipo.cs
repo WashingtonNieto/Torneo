@@ -24,7 +24,7 @@ namespace Torneo.App.Persistencia
       var equipos = _dataContext.Equipos
       .Include(e => e.Municipio)
       .Include(e => e.DirectorTecnico)
-//      .Include(e => e.Jugador)
+      .Include(e => e.Jugadores)
       .ToList();
       return equipos;
     }
@@ -76,5 +76,12 @@ namespace Torneo.App.Persistencia
       return equipoEncontrado;
     }
 
+
+    public IEnumerable<Equipo> SearchEquipos(string nombre)
+    {
+      return _dataContext.Equipos
+      .Where(e => e.Nombre.Contains(nombre));
+
+    }
   }
 }

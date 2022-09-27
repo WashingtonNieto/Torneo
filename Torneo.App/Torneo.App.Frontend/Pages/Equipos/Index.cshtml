@@ -2,10 +2,30 @@
 @model Torneo.App.Frontend.Pages.Equipos.IndexModel
 @{
 }
+
+<form method="post">
+    <div class="input-group mb-3">
+        <select asp-for="MunicipioSelected" asp-items="@Model.MunicipioOptions" name="idMunicipio" class="form-control">
+            <option value="-1">Ver todos</option>
+        </select>
+        <button class="btn btn-outline-secondary" asp-page-handler="Filtro">
+            Filtrar
+        </button>
+    </div>
+</form>
+<form method="post">
+    <div class="input-group mb-3">
+        <input asp-for="@Model.BusquedaActual" name="nombre" class="form-control">
+        <button class="btn btn-outline-secondary" asp-page-handler="Buscar">
+            Buscar
+        </button>
+    </div>
+</form>
+
 @if (Model.ErrorEliminar)
 {
     <div class="alert alert-danger" role="alert">
-    No se pudo eliminar el Equipo
+        No se pudo eliminar el Equipo
     </div>
 }
 <h1>LISTADO DE EQUIPOS</h1>
@@ -20,6 +40,7 @@
         </tr>
     </thead>
     <tbody>
+
         @foreach (var equipo in Model.equipos)
         {
             <tr>
@@ -34,13 +55,15 @@
                     <a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@equipo.Id">
                         Editar
                     </a>
-                        <form method="post" class="d-inline">
+                                        @if (equipo.Jugadores.Count == 0)
+
+{                          <form method="post" class="d-inline">
                             <button asp-page-handler="Delete" asp-route-id="@equipo.Id"
-                            onclick="return confirm('Esta Seguro de eliminar el equipo?')"
-                            class="btn btn-danger">
+                        onclick="return confirm('Esta Seguro de eliminar el equipo?')" class="btn btn-danger">
                                 Delete
-                            </button>       
+                            </button>
                         </form>
+}
                 </td>
             </tr>
         }

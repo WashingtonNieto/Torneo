@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Torneo.App.Persistencia;
 using Torneo.App.Dominio;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Torneo.App.Frontend.Pages.Municipios
 {
@@ -10,6 +11,9 @@ namespace Torneo.App.Frontend.Pages.Municipios
 
     private readonly IRepositorioMunicipio _repoMunicipio;
     public IEnumerable<Municipio> municipios { get; set; }
+    public int MunicipioSelected { get; set; }
+    public SelectList MunicipioOptions { get; set; }
+    public string BusquedaActual { get; set; }
     public bool ErrorEliminar { get; set; }
 
     public IndexModel(IRepositorioMunicipio repoMunicipio)
@@ -18,7 +22,10 @@ namespace Torneo.App.Frontend.Pages.Municipios
     }
     public void OnGet()
     {
+      MunicipioOptions = new SelectList(_repoMunicipio.GetAllMunicipios(), "Id", "Nombre");
       municipios = _repoMunicipio.GetAllMunicipios();
+      MunicipioSelected = -1;
+      BusquedaActual = "";
       ErrorEliminar = false;
 
 
@@ -32,6 +39,9 @@ namespace Torneo.App.Frontend.Pages.Municipios
       //   }
       // }
     }
+
+
+
     public IActionResult OnPostDelete(int id)
     {
       try
@@ -48,5 +58,22 @@ namespace Torneo.App.Frontend.Pages.Municipios
 
       }
     }
+
+    public void OnPostBuscar(string nombre)
+    {
+      MunicipioOptions = new SelectList(_repoMunicipio.GetAllMunicipios(), "Id", "Nombre");
+      MunicipioSelected = -1;
+      if (string.IsNullOrEmpty(nombre))
+      {
+        BusquedaActual = "";
+        municipios = _repoMunicipio.GetAllMunicipios();
+      }
+      else
+      {
+        BusquedaActual = nombre;
+        municipios = _repoMunicipio.SearchMunicipios(nombre);
+      }
+    }
+
   }
 }

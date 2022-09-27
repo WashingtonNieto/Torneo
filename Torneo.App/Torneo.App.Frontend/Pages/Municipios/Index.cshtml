@@ -2,6 +2,14 @@
 @model Torneo.App.Frontend.Pages.Municipios.IndexModel
 @{
 }
+<form method="post">
+    <div class="input-group mb-3">
+        <input asp-for="@Model.BusquedaActual" name="nombre" class="form-control">
+        <button class="btn btn-outline-secondary" asp-page-handler="Buscar">
+            Buscar
+        </button>
+    </div>
+</form>
 
 @if (Model.ErrorEliminar)
 {
@@ -46,14 +54,14 @@
 
                     }
                 </td>
-                @* 
-                //ejemplo para ver el listado de equipos que tiene un municipio
-                <td>
+                @*
+                    //ejemplo para ver el listado de equipos que tiene un municipio
+                    <td>
                     @foreach (var equipo in @municipio.Equipos)
                     {
-                        @equipo.Nombre;
+                    @equipo.Nombre;
                     }
-                </td> *@
+                    </td> *@
 
             </tr>
         }

@@ -9,5 +9,6 @@ namespace Torneo.App.Persistencia
         public DirectorTecnico GetDT(int idDT);
         public DirectorTecnico UpdateDT(DirectorTecnico dt);
         public DirectorTecnico DeleteDirectorTecnico(int idDT);
+        public IEnumerable<DirectorTecnico> SearchDts(string nombre);
     }
 }

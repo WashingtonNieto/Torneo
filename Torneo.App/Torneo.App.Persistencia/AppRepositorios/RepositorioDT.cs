@@ -50,6 +50,11 @@ namespace Torneo.App.Persistencia
       }
       return dtEncontrado;
     }
+    public IEnumerable<DirectorTecnico> SearchDts(string nombre)
+    {
+      return _dataContext.DirectoresTecnicos
+      .Where(e => e.Nombre.Contains(nombre));
 
+    }
   }
 }
